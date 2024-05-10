@@ -11,6 +11,17 @@
  */
 
 /**
- * JWT  - Json Web Token
- * 
+1. JWT  - Json Web Token
+2. Generate a token by using jwt.sign
+3. create api set to cookie. http only, secure, sameSite
+4. from client side: axios withCredentials true
+5. cors setup origin and credentials: true
+ */
+
+/**
+1. For secure api calls
+2. server side install cookie parser and use it as a middlewre
+3. req.cookies
+4. on the client side: make api call using axios  withCredentails: true || credentials include while using fetch
+5. 
  */
